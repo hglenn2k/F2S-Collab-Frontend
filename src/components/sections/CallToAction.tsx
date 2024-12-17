@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 
-export default function CTA() {
+export default function CallToAction() {
   return (
     <section className="py-16 bg-green-900 text-white">
       <div className="container mx-auto px-4 text-center">

@@ -5,7 +5,7 @@ import ProgramHighlights from '@/components/sections/ProgramHighlights'
 import Timeline from '@/components/sections/Timeline'
 import TeamBuilding from '@/components/sections/TeamBuilding'
 import Resources from '@/components/sections/Resources'
-import CTA from '@/components/sections/CTA'
+import CallToAction from '@/components/sections/CallToAction'
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
       <Timeline />
       <TeamBuilding />
       <Resources />
-      <CTA />
+      <CallToAction />
     </main>
   );
 }
