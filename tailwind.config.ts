@@ -41,6 +41,11 @@ export default {
         cyan: {
           700: "#264653",  // Dark slate cyan
           300: "#93D8CC",  // Light cyan
+        },
+
+        // Light gray background
+        gray: {
+          50: "#F9FAFB",  // 10% gray for subtle backgrounds
         }
       }
     },

@@ -12,8 +12,8 @@ export default function Home() {
     <main className="min-h-screen">
       <Hero />
       <Vision />
-      <Retreat />
       <ProgramHighlights />
+      <Retreat />
       <Timeline />
       <TeamBuilding />
       <Resources />
