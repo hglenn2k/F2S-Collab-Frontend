@@ -5,18 +5,18 @@ export default function Vision() {
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-7xl mx-auto">
-          {/* Main Heading - Using cyan */}
+          {/* Main Heading */}
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4 text-cyan-700">
+            <h2 className="text-3xl font-bold mb-4 text-green-900">
               Connecting Cafeterias, Classrooms, and Communities
             </h2>
-            <p className="text-xl italic font-serif text-cyan-700">
+            <p className="text-xl italic font-serif text-green-900">
               Where Food Becomes the Heart of Learning
             </p>
           </div>
 
           <div className="grid grid-cols-1 gap-[50px] min-[1250px]:grid-cols-3 min-[1250px]:gap-[100px]">
-            {/* Vision Section - High contrast orange/yellow */}
+            {/* Vision Section */}
             <div className={`
               relative
               w-full
@@ -25,22 +25,24 @@ export default function Vision() {
               min-[1250px]:w-[375px] 
               min-[450px]:max-[1249px]:justify-self-start
             `}>
-              <div className="p-8 rounded-3xl h-full bg-orange-100 border-l-4 border-r-4 border-orange-900" 
-                style={{ borderRadius: '24px' }}>
-                <h3 className="text-2xl font-semibold mb-3 text-center text-orange-900">
-                  Our Vision
-                </h3>
-                <p className="leading-relaxed text-orange-900" style={{ textIndent: '2em' }}>
+              <div className="p-8 rounded-2xl h-full bg-green-300 shadow-md hover:shadow-xl transition-shadow border-2 border-green-900">
+                <div className="flex items-center justify-center mb-3 w-full">
+                  <div className="h-px bg-white flex-grow"></div>
+                  <h3 className="text-2xl font-semibold text-green-900 px-4" style={{ textShadow: '1px 1px 2px rgba(255, 255, 255, 0.6)' }}>
+                    Our Vision
+                  </h3>
+                  <div className="h-px bg-white flex-grow"></div>
+                </div>
+                <p className="leading-relaxed text-green-900" style={{ textIndent: '2em', textShadow: '1px 1px 2px rgba(255, 255, 255, 0.6)' }}>
                   Farm to School transforms cafeterias and classrooms into vibrant learning spaces 
                   where students connect with their food from seed to plate. The cafeteria isn't 
                   just a dining space—it's the heart of a thriving educational ecosystem, creating 
                   resilient, interconnected systems that nourish communities in mind, body, and spirit.
                 </p>
               </div>
-              <div className="absolute -top-2 -right-2 w-16 h-16 rounded-full -z-10 bg-orange-700" />
             </div>
 
-            {/* Journey Section - High contrast purple */}
+            {/* Journey Section */}
             <div className={`
               relative 
               w-full 
@@ -49,12 +51,15 @@ export default function Vision() {
               min-[1250px]:w-[375px]
               min-[450px]:max-[1249px]:justify-self-center
             `}>
-              <div className="p-8 rounded-3xl h-full bg-purple-300 border-l-4 border-r-4 border-purple-900" 
-                style={{ borderRadius: '24px' }}>
-                <h3 className="text-2xl font-semibold mb-3 text-center text-purple-950">
-                  The Journey
-                </h3>
-                <p className="leading-relaxed text-purple-950" style={{ textIndent: '2em' }}>
+              <div className="p-8 rounded-2xl h-full bg-green-300 shadow-md hover:shadow-xl transition-shadow border-2 border-green-900">
+                <div className="flex items-center justify-center mb-3 w-full">
+                  <div className="h-px bg-white flex-grow"></div>
+                  <h3 className="text-2xl font-semibold text-green-900 px-4" style={{ textShadow: '1px 1px 2px rgba(255, 255, 255, 0.6)' }}>
+                    The Journey
+                  </h3>
+                  <div className="h-px bg-white flex-grow"></div>
+                </div>
+                <p className="leading-relaxed text-green-900" style={{ textIndent: '2em', textShadow: '1px 1px 2px rgba(255, 255, 255, 0.6)' }}>
                   Beginning May 2025, join us for the inaugural Farm to School Collaborative 
                   Retreat. Selected schools will embark on a three-day immersive experience, 
                   creating customized goals aligned to each team's unique values and vision. 
@@ -62,10 +67,9 @@ export default function Vision() {
                   peer-networking, and support from the Collaborative throughout the entire year.
                 </p>
               </div>
-              <div className="absolute -top-2 -left-2 w-16 h-16 rounded-full -z-10 bg-purple-700" />
             </div>
 
-            {/* Details Section - High contrast green */}
+            {/* Details Section */}
             <div className={`
               relative 
               w-full 
@@ -74,12 +78,15 @@ export default function Vision() {
               min-[1250px]:w-[375px]
               min-[450px]:max-[1249px]:justify-self-end
             `}>
-              <div className="p-8 rounded-3xl h-full bg-green-300 border-l-4 border-r-4 border-green-900" 
-                style={{ borderRadius: '24px' }}>
-                <h3 className="text-2xl font-semibold mb-3 text-center text-green-900">
-                  The Details
-                </h3>
-                <p className="leading-relaxed text-green-900" style={{ textIndent: '2em' }}>
+              <div className="p-8 rounded-2xl h-full bg-green-300 shadow-md hover:shadow-xl transition-shadow border-2 border-green-900">
+                <div className="flex items-center justify-center mb-3 w-full">
+                  <div className="h-px bg-white flex-grow"></div>
+                  <h3 className="text-2xl font-semibold text-green-900 px-4" style={{ textShadow: '1px 1px 2px rgba(255, 255, 255, 0.6)' }}>
+                    The Details
+                  </h3>
+                  <div className="h-px bg-white flex-grow"></div>
+                </div>
+                <p className="leading-relaxed text-green-900" style={{ textIndent: '2em', textShadow: '1px 1px 2px rgba(255, 255, 255, 0.6)' }}>
                   Eight schools will be selected to begin this transformative journey. School or 
                   district teams should include at least one classroom teacher, an administrator, 
                   and child nutrition staff. Together, you'll work through an evidence-based 
@@ -87,7 +94,6 @@ export default function Vision() {
                   Farm to School practices.
                 </p>
               </div>
-              <div className="absolute -top-2 -left-2 w-16 h-16 rounded-full -z-10 bg-green-700" />
             </div>
           </div>
         </div>
