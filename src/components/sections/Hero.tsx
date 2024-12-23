@@ -21,7 +21,7 @@ export default function Hero() {
           to bring Farm to School practices to life.
         </p>
         <button className="bg-green-600 text-white px-8 py-3 rounded-lg hover:bg-green-700 transition-colors">
-          Sign up for 2025-26 Program Updates
+          Sign up for 2025 Enrollment Updates
         </button>
       </div>
     </header>
