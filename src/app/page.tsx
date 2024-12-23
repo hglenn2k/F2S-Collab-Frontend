@@ -1,6 +1,5 @@
 import Hero from '@/components/sections/Hero'
 import Vision from '@/components/sections/Vision'
-import Retreat from '@/components/sections/Retreat'
 import ProgramHighlights from '@/components/sections/ProgramHighlights'
 import Timeline from '@/components/sections/Timeline'
 import TeamBuilding from '@/components/sections/TeamBuilding'
@@ -13,7 +12,6 @@ export default function Home() {
       <Hero />
       <Vision />
       <ProgramHighlights />
-      <Retreat />
       <Timeline />
       <TeamBuilding />
       <Resources />

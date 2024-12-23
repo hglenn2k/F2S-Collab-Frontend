@@ -4,7 +4,7 @@ export default function Vision() {
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           {/* Main Heading */}
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4 text-green-900">
@@ -15,14 +15,14 @@ export default function Vision() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 gap-[50px] min-[1250px]:grid-cols-3 min-[1250px]:gap-[100px]">
+          <div className="grid grid-cols-1 gap-6 min-[1250px]:grid-cols-3 min-[1250px]:gap-8">
             {/* Vision Section */}
             <div className={`
               relative
               w-full
-              min-[450px]:w-4/5
-              max-[1249px]:max-w-[800px] 
-              min-[1250px]:w-[375px] 
+              min-[450px]:w-3/4
+              max-[1249px]:max-w-[600px] 
+              min-[1250px]:w-[325px] 
               min-[450px]:max-[1249px]:justify-self-start
             `}>
               <div className="p-8 rounded-2xl h-full bg-green-300 shadow-md hover:shadow-xl transition-shadow border-2 border-green-900">
@@ -46,9 +46,9 @@ export default function Vision() {
             <div className={`
               relative 
               w-full 
-              min-[450px]:w-4/5
-              max-[1249px]:max-w-[800px] 
-              min-[1250px]:w-[375px]
+              min-[450px]:w-3/4
+              max-[1249px]:max-w-[600px] 
+              min-[1250px]:w-[325px]
               min-[450px]:max-[1249px]:justify-self-center
             `}>
               <div className="p-8 rounded-2xl h-full bg-green-300 shadow-md hover:shadow-xl transition-shadow border-2 border-green-900">
@@ -73,9 +73,9 @@ export default function Vision() {
             <div className={`
               relative 
               w-full 
-              min-[450px]:w-4/5
-              max-[1249px]:max-w-[800px] 
-              min-[1250px]:w-[375px]
+              min-[450px]:w-3/4
+              max-[1249px]:max-w-[600px] 
+              min-[1250px]:w-[325px]
               min-[450px]:max-[1249px]:justify-self-end
             `}>
               <div className="p-8 rounded-2xl h-full bg-green-300 shadow-md hover:shadow-xl transition-shadow border-2 border-green-900">
