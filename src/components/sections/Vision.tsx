@@ -35,8 +35,8 @@ export default function Vision() {
                 </div>
                 <p className="leading-relaxed text-green-900" style={{ textIndent: '2em', textShadow: '1px 1px 2px rgba(255, 255, 255, 0.6)' }}>
                   Farm to School transforms cafeterias and classrooms into vibrant learning spaces 
-                  where students connect with their food from seed to plate. The cafeteria isn't 
-                  just a dining space—it's the heart of a thriving educational ecosystem, creating 
+                  where students connect with their food from seed to plate. The cafeteria isn&apos;t 
+                  just a dining space—it&apos;s the heart of a thriving educational ecosystem, creating 
                   resilient, interconnected systems that nourish communities in mind, body, and spirit.
                 </p>
               </div>
@@ -62,7 +62,7 @@ export default function Vision() {
                 <p className="leading-relaxed text-green-900" style={{ textIndent: '2em', textShadow: '1px 1px 2px rgba(255, 255, 255, 0.6)' }}>
                   Beginning May 2025, join us for the inaugural Farm to School Collaborative 
                   Retreat. Selected schools will embark on a three-day immersive experience, 
-                  creating customized goals aligned to each team's unique values and vision. 
+                  creating customized goals aligned to each team&apos;s unique values and vision. 
                   Watch as Farm to School gradually unfolds on your campus with ongoing coaching, 
                   peer-networking, and support from the Collaborative throughout the entire year.
                 </p>
@@ -89,7 +89,7 @@ export default function Vision() {
                 <p className="leading-relaxed text-green-900" style={{ textIndent: '2em', textShadow: '1px 1px 2px rgba(255, 255, 255, 0.6)' }}>
                   Eight schools will be selected to begin this transformative journey. School or 
                   district teams should include at least one classroom teacher, an administrator, 
-                  and child nutrition staff. Together, you'll work through an evidence-based 
+                  and child nutrition staff. Together, you&apos;ll work through an evidence-based 
                   approach guided by dedicated coaches to implement your own adaptation of 
                   Farm to School practices.
                 </p>

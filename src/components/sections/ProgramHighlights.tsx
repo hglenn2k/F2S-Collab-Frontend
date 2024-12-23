@@ -62,7 +62,7 @@ export default function ProgramHighlights() {
         {/* Program Details Section */}
         <div className="bg-cyan-300/20 rounded-xl p-8 max-w-4xl mx-auto border border-white shadow-md hover:shadow-xl transition-shadow">
           <h3 className="text-2xl font-bold text-cyan-700 mb-4 text-center text-shadow-white">
-            What You'll Receive
+            What You&apos;ll Receive
           </h3>
           <p className="text-center mb-6 text-gray-700">
             In January, we will recruit 8 school or district teams from across the state to 
@@ -86,7 +86,7 @@ export default function ProgramHighlights() {
           
           <p className="text-center text-gray-700">
             Plus, receive ongoing support from the Arizona Farm to School Network to ensure 
-            your program's success.
+            your program&apos;s success.
           </p>
         </div>
       </div>
