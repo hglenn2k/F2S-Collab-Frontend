@@ -5,17 +5,20 @@ export default function Hero() {
   return (
     <header className="relative h-screen flex items-center justify-center">
       {/* Background image with Next.js Image */}
-      <Image
-        src="/api/placeholder/1920/1080"
-        alt="Background"
-        fill
-        className="object-cover"
-        priority
-      />
+      <picture>
+        <source srcSet="/images/hero.webp" type="image/webp" />
+        <Image
+          src="/images/hero.jpg"  // This acts as fallback
+          alt="Background"
+          fill
+          className="object-cover object-bottom"
+          priority
+        />
+      </picture>
       
       {/* Gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/50 to-transparent" />
-      
+      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/60 to-black/10" />
+            
       {/* Content */}
       <div className="relative container mx-auto px-4 text-center text-white">
         <h1 className="text-5xl font-bold mb-6">
