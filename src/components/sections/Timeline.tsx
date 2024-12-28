@@ -45,7 +45,7 @@ export default function Timeline() {
     const horizontalOffset = index % 2 === 0 ? -380 : 380;
     
     // Control points that create steeper angles near nodes
-    const cp1x = prevPoint.x + (horizontalOffset * 0.15); // Reduce coefficient to increase verticality of parabola out of nodes
+    const cp1x = prevPoint.x + (horizontalOffset * 0.15);
     const cp1y = prevPoint.y + verticalDistance;
     
     // Middle point for wide berth around text
@@ -53,7 +53,7 @@ export default function Timeline() {
     const midY = (prevPoint.y + point.y) / 2;
     
     // Control points for steeper entry into next node
-    const cp2x = point.x - (horizontalOffset * 0.15); // Reduced horizontal offset near nodes
+    const cp2x = point.x - (horizontalOffset * 0.15);
     const cp2y = point.y - verticalDistance;
     
     return `${path} C ${cp1x} ${cp1y}, ${midX} ${midY}, ${midX} ${midY} C ${midX} ${midY}, ${cp2x} ${cp2y}, ${point.x} ${point.y}`;
@@ -64,16 +64,16 @@ export default function Timeline() {
   return (
     <section className="py-16 bg-orange-50">
       <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-orange-700 mb-6">Program Timeline: 2025-2026 Retreat</h2>
-          <p className="text-lg text-gray-700 mb-8">
-            The Arizona Farm to School Collaborative will host the inaugural Farm to School 
-            Collaborative Retreat. Participating schools will attend a three-day immersive retreat 
-            experience and create actionable goals for the 2025-2026 school year.
+        <div className="max-w-4xl mx-auto text-center mb-16">
+          <h2 className="text-3xl font-bold text-orange-700 mb-6">2025-2026 Retreat Timeline</h2>
+          <p className="text-lg text-gray-700">
+            From the initial program launch through a transformative summer retreat and into a full year 
+            of coaching and implementation, <span className="font-bold">eight selected school teams</span> will work together to bring their 
+            farm to school visions to life across Arizona.
           </p>
         </div>
 
-        <div className="max-w-4xl mx-auto relative h-[600px]">
+        <div className="max-w-4xl mx-auto relative h-[600px] mb-4">
           {/* SVG curved path with gradient */}
           <svg 
             className="absolute inset-0 w-full h-full"
@@ -140,17 +140,6 @@ export default function Timeline() {
                 </div>
               );
             })}
-          </div>
-        </div>
-
-        {/* Selection Process */}
-        <div className="max-w-4xl mx-auto mt-12">
-          <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
-            <h3 className="text-xl font-bold text-orange-700 mb-4">Selection Process</h3>
-            <p className="text-gray-700">
-              Eight schools will be selected to begin the journey with the AZF2SC for the upcoming 
-              25-26 school year.
-            </p>
           </div>
         </div>
       </div>

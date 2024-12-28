@@ -39,19 +39,19 @@ export default function ProgramHighlights() {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl font-bold text-cyan-700 mb-6 text-shadow-white">Program Highlights</h2>
           <p className="text-lg text-gray-700 mb-4">
-            The AZ Farm to School Collaborative empowers schools to create meaningful farm to school 
-            and early childhood programs that align with their priorities and foster lasting impact.
+            The AZ Farm to School Collaborative empowers schools to create impactful farm to school 
+            and early childhood programs aligned with their priorities.
           </p>
           <p className="text-lg text-gray-700">
-            This program will help your team build the relationships, skills, and connections 
-            you need to implement long-lasting farm to school programs.
+            Through building essential relationships and skills, your team will develop 
+            the foundation needed for a sustainable farm to school program.
           </p>
         </div>
 
         {/* Main Highlights Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto mb-16">
           {highlights.map((item, index) => (
-            <div key={index} className="bg-cyan-300/10 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow border border-white">
+            <div key={index} className="bg-cyan-300/10 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow border border-cyan-700">
               <div className="text-cyan-700 mb-4">{item.icon}</div>
               <h3 className="text-xl font-bold text-cyan-700 mb-2 text-shadow-white">{item.title}</h3>
               <p className="text-gray-700">{item.description}</p>
@@ -60,7 +60,7 @@ export default function ProgramHighlights() {
         </div>
 
         {/* Program Details Section */}
-        <div className="bg-cyan-300/20 rounded-xl p-8 max-w-4xl mx-auto border border-white shadow-md hover:shadow-xl transition-shadow">
+        <div className="bg-cyan-300/20 rounded-xl p-8 max-w-4xl mx-auto border border-cyan-700 shadow-md hover:shadow-xl transition-shadow">
           <h3 className="text-2xl font-bold text-cyan-700 mb-4 text-center text-shadow-white">
             What You&apos;ll Receive
           </h3>

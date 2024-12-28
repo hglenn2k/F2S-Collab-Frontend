@@ -3,7 +3,6 @@ import Vision from '@/components/sections/Vision'
 import ProgramHighlights from '@/components/sections/ProgramHighlights'
 import Timeline from '@/components/sections/Timeline'
 import TeamBuilding from '@/components/sections/TeamBuilding'
-import Resources from '@/components/sections/Resources'
 import CallToAction from '@/components/sections/CallToAction'
 
 export default function Home() {
@@ -14,7 +13,6 @@ export default function Home() {
       <ProgramHighlights />
       <Timeline />
       <TeamBuilding />
-      <Resources />
       <CallToAction />
     </main>
   );
