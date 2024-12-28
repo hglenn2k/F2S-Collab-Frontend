@@ -25,7 +25,7 @@ export default function Vision() {
               min-[1250px]:w-[325px] 
               min-[450px]:max-[1249px]:justify-self-start
             `}>
-              <div className="p-8 rounded-2xl h-full bg-green-300 shadow-md hover:shadow-xl transition-shadow border-2 border-green-900">
+              <div className="p-8 rounded-2xl h-full bg-green-300 shadow-md hover:shadow-xl transition-shadow border border-green-900">
                 <div className="flex items-center justify-center mb-3 w-full">
                   <div className="h-px bg-white flex-grow"></div>
                   <h3 className="text-2xl font-semibold text-green-900 px-4" style={{ textShadow: '1px 1px 2px rgba(255, 255, 255, 0.6)' }}>
@@ -51,7 +51,7 @@ export default function Vision() {
               min-[1250px]:w-[325px]
               min-[450px]:max-[1249px]:justify-self-center
             `}>
-              <div className="p-8 rounded-2xl h-full bg-green-300 shadow-md hover:shadow-xl transition-shadow border-2 border-green-900">
+              <div className="p-8 rounded-2xl h-full bg-green-300 shadow-md hover:shadow-xl transition-shadow border border-green-900">
                 <div className="flex items-center justify-center mb-3 w-full">
                   <div className="h-px bg-white flex-grow"></div>
                   <h3 className="text-2xl font-semibold text-green-900 px-4" style={{ textShadow: '1px 1px 2px rgba(255, 255, 255, 0.6)' }}>
@@ -78,7 +78,7 @@ export default function Vision() {
               min-[1250px]:w-[325px]
               min-[450px]:max-[1249px]:justify-self-end
             `}>
-              <div className="p-8 rounded-2xl h-full bg-green-300 shadow-md hover:shadow-xl transition-shadow border-2 border-green-900">
+              <div className="p-8 rounded-2xl h-full bg-green-300 shadow-md hover:shadow-xl transition-shadow border border-green-900">
                 <div className="flex items-center justify-center mb-3 w-full">
                   <div className="h-px bg-white flex-grow"></div>
                   <h3 className="text-2xl font-semibold text-green-900 px-4" style={{ textShadow: '1px 1px 2px rgba(255, 255, 255, 0.6)' }}>
