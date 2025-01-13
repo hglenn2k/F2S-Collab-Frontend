@@ -5,25 +5,25 @@ export default function Timeline() {
   const events = [
     { 
       date: "Spring 2025", 
-      event: "Program Launch",
+      event: "Program Launch - Schools, Districts, and ECEs assemble teams and submit applications.",
       Icon: Rocket,
       color: "#85C88D" // Light Green
     },
     { 
       date: "Summer 2025", 
-      event: "Three-day Immersive Retreat",
+      event: "Three-day Immersive Retreat at the Orme School in Mayer, Arizona.",
       Icon: Users,
       color: "#F6A20E",  // Golden orange
     },
     { 
       date: "Fall / Winter 2025", 
-      event: "Present your Action Plan to \n AZ Farm-to-School Network",
+      event: "Receive ongoing coaching to implement your Farm-to-School action plan.",
       Icon: Presentation,
       color: "#93D8CC",  // Light cyan
     },
     { 
       date: "Spring 2026", 
-      event: "Present reflections on your action plan",
+      event: "Present reflections on your action plan at the Farm to School COP and celebrate your success.",
       Icon: ClipboardCheck,
       color: "#85C88D" // Light Green
     }
@@ -44,15 +44,12 @@ export default function Timeline() {
     const verticalDistance = 70;
     const horizontalOffset = index % 2 === 0 ? -380 : 380;
     
-    // Control points that create steeper angles near nodes
     const cp1x = prevPoint.x + (horizontalOffset * 0.15);
     const cp1y = prevPoint.y + verticalDistance;
     
-    // Middle point for wide berth around text
     const midX = prevPoint.x + horizontalOffset;
     const midY = (prevPoint.y + point.y) / 2;
     
-    // Control points for steeper entry into next node
     const cp2x = point.x - (horizontalOffset * 0.15);
     const cp2y = point.y - verticalDistance;
     
@@ -74,7 +71,6 @@ export default function Timeline() {
         </div>
 
         <div className="max-w-4xl mx-auto relative h-[600px] mb-4">
-          {/* SVG curved path with gradient */}
           <svg 
             className="absolute inset-0 w-full h-full"
             style={{ zIndex: 0 }}
@@ -85,12 +81,12 @@ export default function Timeline() {
               <linearGradient id={linearGradientId} x1="0%" y1="0%" x2="0%" y2="100%">
                 <stop offset="0%" stopColor={events[0].color} />
                 <stop offset="9%" stopColor={events[0].color} />
-                  <stop offset="25%" stopColor={events[1].color} />
-                  <stop offset="42%" stopColor={events[1].color} />
+                <stop offset="25%" stopColor={events[1].color} />
+                <stop offset="42%" stopColor={events[1].color} />
                 <stop offset="56%" stopColor={events[2].color} />
                 <stop offset="75%" stopColor={events[2].color} />
-                  <stop offset="85%" stopColor={events[3].color} />
-                  <stop offset="100%" stopColor={events[3].color} />
+                <stop offset="85%" stopColor={events[3].color} />
+                <stop offset="100%" stopColor={events[3].color} />
               </linearGradient>
             </defs>
             <path
@@ -119,23 +115,17 @@ export default function Timeline() {
                     transform: `translate(${isLeft ? '0' : '-100%'}, -50%)`
                   }}
                 >
-                  {/* Circle with icon */}
                   <div className="relative flex items-center">
                     <div className="w-16 h-16 rounded-full bg-white border-4 flex items-center justify-center" style={{ borderColor: item.color }}>
                       <Icon className="w-8 h-8" style={{ color: item.color }} />
                     </div>
                   </div>
 
-                  {/* Content */}
                   <div className={`flex flex-col justify-center ${
                     isLeft ? 'ml-3' : 'mr-3 text-right order-first'
-                  }`}
-                  style={{ 
-                    width: isLeft ? '250px' : '350px',
-                    minWidth: isLeft ? '250px' : '350px'
-                  }}>
-                    <h3 className="font-bold" style={{ color: item.color }}>{item.date}</h3>
-                    <p className="text-gray-700">{item.event}</p>
+                  } w-[220px] md:w-[350px]`}>
+                    <h3 className="font-bold text-base" style={{ color: item.color }}>{item.date}</h3>
+                    <p className="text-gray-700 text-base">{item.event}</p>
                   </div>
                 </div>
               );
