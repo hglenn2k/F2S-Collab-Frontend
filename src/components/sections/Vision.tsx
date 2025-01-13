@@ -10,7 +10,7 @@ export default function Vision() {
             <h2 className="text-3xl font-bold mb-4 text-green-900">
               Connecting Cafeterias, Classrooms, and Communities
             </h2>
-            <p className="text-xl italic font-serif text-green-900">
+            <p className="text-2xl italic font-serif text-green-900">
               Where Food Becomes the Heart of Learning
             </p>
           </div>
@@ -34,7 +34,7 @@ export default function Vision() {
                   <div className="h-px bg-white flex-grow"></div>
                 </div>
 
-                <p className="leading-relaxed text-green-900 text-lg" style={{ textIndent: '2em', textShadow: '1px 1px 2px rgba(255, 255, 255, 0.6)' }}>
+                <p className="leading-relaxed text-green-900 text-lg" style={{ textShadow: '1px 1px 2px rgba(255, 255, 255, 0.6)' }}>
                   Farm to School is a vibrant journey of collaboration, growth, and scholastic success. 
                   Cafeterias and classrooms are transformed into resilient, interconnected systems that nourish 
                   communities in mind, body, and spirit. Picture a campus where the cafeteria isn&apos;t just a 
@@ -61,7 +61,7 @@ export default function Vision() {
                   <div className="h-px bg-white flex-grow"></div>
                 </div>
 
-                <p className="leading-relaxed text-green-900 text-lg" style={{ textIndent: '2em', textShadow: '1px 1px 2px rgba(255, 255, 255, 0.6)' }}>
+                <p className="leading-relaxed text-green-900 text-lg" style={{ textShadow: '1px 1px 2px rgba(255, 255, 255, 0.6)' }}>
                   Join us May 30th-June 1st, 2025, for the inaugural Farm to School Collaborative Retreat. 
                   Schools will attend a three-day immersive experience to create actionable goals for 2025-2026. 
                   Teams will receive ongoing coaching and peer support as Farm to School gradually unfolds on their 
@@ -88,7 +88,7 @@ export default function Vision() {
                   <div className="h-px bg-white flex-grow"></div>
                 </div>
 
-                <p className="leading-relaxed text-green-900 text-lg" style={{ textIndent: '2em', textShadow: '1px 1px 2px rgba(255, 255, 255, 0.6)' }}>
+                <p className="leading-relaxed text-green-900 text-lg" style={{ textShadow: '1px 1px 2px rgba(255, 255, 255, 0.6)' }}>
                   Eight school or district teams accepted into the AZ Farm to School Collaborative will work through an 
                   evidence-based approach guided by dedicated coaches to implement their own adaptation of Farm to School 
                   practices. These teams of up to five should consist of at least one classroom teacher, an administrator, 

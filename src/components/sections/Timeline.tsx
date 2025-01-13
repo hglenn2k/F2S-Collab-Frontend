@@ -5,25 +5,25 @@ export default function Timeline() {
   const events = [
     { 
       date: "Spring 2025", 
-      event: "Program Launch - Schools, Districts, and ECEs assemble teams and submit applications.",
+      event: "Program Launch - Schools, Districts, and ECEs assemble teams and submit applications",
       Icon: Rocket,
       color: "#85C88D" // Light Green
     },
     { 
       date: "Summer 2025", 
-      event: "Three-day Immersive Retreat at the Orme School in Mayer, Arizona.",
+      event: "Three-day Immersive Retreat at the Orme School in Mayer, Arizona",
       Icon: Users,
       color: "#F6A20E",  // Golden orange
     },
     { 
       date: "Fall / Winter 2025", 
-      event: "Receive ongoing coaching to implement your Farm-to-School action plan.",
+      event: "Receive ongoing coaching to implement your Farm to School action plan",
       Icon: Presentation,
       color: "#93D8CC",  // Light cyan
     },
     { 
       date: "Spring 2026", 
-      event: "Present reflections on your action plan at the Farm to School COP and celebrate your success.",
+      event: "Reflect on your action plan and share your experience with the AZ Farm to School Network",
       Icon: ClipboardCheck,
       color: "#85C88D" // Light Green
     }
@@ -62,7 +62,7 @@ export default function Timeline() {
     <section className="py-16 bg-orange-50">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-16">
-          <h2 className="text-3xl font-bold text-orange-700 mb-6">2025-2026 Retreat Timeline</h2>
+          <h2 className="text-3xl font-bold text-orange-700 mb-6">2025-2026 Program Timeline</h2>
           <p className="text-lg text-gray-700">
             From the initial program launch through a transformative summer retreat and into a full year 
             of coaching and implementation, <span className="font-bold">eight selected school teams</span> will work together to bring their 
