@@ -65,7 +65,7 @@ export default function ProgramHighlights() {
             What You&apos;ll Receive
           </h3>
           <p className="text-center mb-6 text-gray-700">
-            In January, we will recruit 8 school or district teams from across the state to 
+            We will recruit 8 school or district teams from across the state to 
             participate in this comprehensive program.
           </p>
           
