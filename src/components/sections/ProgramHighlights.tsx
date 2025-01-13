@@ -38,21 +38,18 @@ export default function ProgramHighlights() {
           <h2 className="text-3xl font-bold text-cyan-700 mb-6 text-shadow-white">Program Highlights</h2>
           <p className="text-xl text-gray-700 mb-4">
             The AZ Farm to School Collaborative empowers schools to create impactful farm to school 
-            and early childhood programs aligned with their priorities.
-          </p>
-          <p className="text-xl text-gray-700">
-            Through building essential relationships and skills, your team will develop 
+            and early childhood programs aligned with their priorities. Through building essential relationships and skills, your team will develop 
             the foundation needed for a sustainable farm to school program.
           </p>
         </div>
 
         {/* Main Highlights Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto mb-16">
+        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8 max-w-6xl mx-auto mb-16">
           {highlights.map((item, index) => (
-            <div key={index} className="bg-cyan-300/10 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow border border-cyan-700">
+            <div key={index} className="bg-cyan-300/10 p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow border border-cyan-700">
               <div className="text-cyan-700 mb-4">{item.icon}</div>
               <h3 className="text-xl font-bold text-cyan-700 mb-2 text-shadow-white">{item.title}</h3>
-              <p className="text-lg text-gray-700">{item.description}</p>
+              <p className="text-xl text-gray-700">{item.description}</p>
             </div>
           ))}
         </div>
@@ -62,7 +59,7 @@ export default function ProgramHighlights() {
           <h3 className="text-2xl font-bold text-cyan-700 mb-4 text-center text-shadow-white">
             What You&apos;ll Receive
           </h3>
-          <p className="text-center mb-6 text-lg text-gray-700">
+          <p className="text-center mb-6 text-xl text-gray-700">
             We will recruit 8 school or district teams from across the state to 
             participate in this comprehensive program.
           </p>
@@ -70,19 +67,19 @@ export default function ProgramHighlights() {
           <ul className="space-y-4 mb-6">
             <li className="flex items-center space-x-3">
               <School className="w-5 h-5 text-cyan-700 flex-shrink-0" />
-              <span className="text-lg text-gray-700">Work with an experienced Farm to School Coach throughout the program</span>
+              <span className="text-xl text-gray-700">Work with an experienced Farm to School Coach throughout the program</span>
             </li>
             <li className="flex items-center space-x-3">
               <Calendar className="w-5 h-5 text-cyan-700 flex-shrink-0" />
-              <span className="text-lg text-gray-700">Attend a 3-day retreat in Summer 2025 to action plan and build relationships</span>
+              <span className="text-xl text-gray-700">Attend a 3-day retreat in Summer 2025 to action plan and build relationships</span>
             </li>
             <li className="flex items-center space-x-3">
               <Clock className="w-5 h-5 text-cyan-700 flex-shrink-0" />
-              <span className="text-lg text-gray-700">Receive ongoing technical assistance through monthly meetings during 2025-2026</span>
+              <span className="text-xl text-gray-700">Receive ongoing technical assistance through monthly meetings during 2025-2026</span>
             </li>
           </ul>
           
-          <p className="text-center text-lg text-gray-700">
+          <p className="text-center text-xl text-gray-700">
             Plus, receive ongoing support from the Arizona Farm to School Network to ensure 
             your program&apos;s success.
           </p>

@@ -23,7 +23,7 @@ export default function Timeline() {
     },
     { 
       date: "Spring 2026", 
-      event: "Reflect on your action plan and share your experience with the AZ Farm to School Network",
+      event: "Reflect on your action plan and share your experience with the network",
       Icon: ClipboardCheck,
       color: "#85C88D" // Light Green
     }
@@ -63,7 +63,7 @@ export default function Timeline() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h2 className="text-3xl font-bold text-orange-700 mb-6">2025-2026 Program Timeline</h2>
-          <p className="text-lg text-gray-700">
+          <p className="text-xl text-gray-700">
             From the initial program launch through a transformative summer retreat and into a full year 
             of coaching and implementation, <span className="font-bold">eight selected school teams</span> will work together to bring their 
             farm to school visions to life across Arizona.
@@ -123,9 +123,9 @@ export default function Timeline() {
 
                   <div className={`flex flex-col justify-center ${
                     isLeft ? 'ml-3' : 'mr-3 text-right order-first'
-                  } w-[220px] md:w-[350px]`}>
-                    <h3 className="font-bold text-base" style={{ color: item.color }}>{item.date}</h3>
-                    <p className="text-gray-700 text-base">{item.event}</p>
+                  } w-[280px] md:w-[400px]`}>
+                    <h3 className="font-bold text-xl" style={{ color: item.color }}>{item.date}</h3>
+                    <p className="text-gray-700 text-lg">{item.event}</p>
                   </div>
                 </div>
               );
