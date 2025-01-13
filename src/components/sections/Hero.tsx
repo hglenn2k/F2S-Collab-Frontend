@@ -3,14 +3,14 @@ import React from 'react';
 import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
-  /*
+  
   console.log("HERO COMPONENT RENDERING");
   console.log("ENV VARS:", {
     enrollmentLink: process.env.NEXT_PUBLIC_ENROLLMENT_UPDATES_LINK,
     faqTeamLink: process.env.NEXT_PUBLIC_FAQ_TEAM_LINK,
     faqCoachLink: process.env.NEXT_PUBLIC_FAQ_COACH_LINK
   });
-  */
+  
   return (
     <header className="relative min-h-screen h-fit lg:h-screen flex items-center justify-center py-8 lg:py-0">
       {/* Background image with Next.js Image */}
