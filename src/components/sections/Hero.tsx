@@ -52,7 +52,7 @@ export default function Hero() {
           style={{maxWidth: '480px'}}
         >
           <a
-            href={process.env.NEXT_PUBLIC_ENROLLMENT_LIST_LINK}
+            href={"http://eepurl.com/i6wuL2"}
             target="_blank"
             rel="noopener noreferrer"
             className="w-full h-12 bg-green-600 text-white px-8 rounded-lg hover:bg-green-700/90 transition-colors inline-flex items-center justify-center gap-2 shadow-lg ring-1 ring-white/50"
@@ -64,7 +64,7 @@ export default function Hero() {
           {/* FAQ Buttons Container - flex-col on mobile, flex-row on desktop */}
           <div className="flex flex-col md:flex-row gap-4 w-full">
             <a
-              href={process.env.NEXT_PUBLIC_FAQ_TEAM_LINK}
+              href={"https://docs.google.com/document/d/1lFUwltHkN_1iTulBAh7R6xNkGb4fVHUpwUDBU_pT5Mk/edit?usp=sharing"}
               target="_blank"
               rel="noopener noreferrer"
               className="w-full h-12 md:flex-1 bg-white/20 backdrop-blur-sm text-white px-8 rounded-lg hover:bg-white/30 transition-colors inline-flex items-center justify-center gap-2 shadow-lg ring-1 ring-white/50"
@@ -74,7 +74,7 @@ export default function Hero() {
             </a>
 
             <a
-              href={process.env.NEXT_PUBLIC_FAQ_COACH_LINK}
+              href={"https://docs.google.com/document/d/1hSd8EWEbzTgtw4GDx51Z-w-98swoEcyUQfkr0m8I7uQ/edit?usp=sharing"}
               target="_blank"
               rel="noopener noreferrer"
               className="w-full h-12 md:flex-1 bg-white/20 backdrop-blur-sm text-white px-8 rounded-lg hover:bg-white/30 transition-colors inline-flex items-center justify-center gap-2 shadow-lg ring-1 ring-white/50"
