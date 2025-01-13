@@ -35,7 +35,7 @@ const Button = ({ href, children, variant = 'primary' }: ButtonProps) => {
 export const ButtonGroup = () => (
   <div className="flex flex-col items-center justify-center gap-4 max-w-lg mx-auto">
     <Button href={LINKS.enrollment} variant="primary">
-      Sign up for Enrollment Updates
+      Sign up for Enrollment&nbsp;Updates
     </Button>
     <Button href={LINKS.guide} variant="secondary">
       Read Information Guide
