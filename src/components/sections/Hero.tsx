@@ -42,8 +42,8 @@ export default function Hero() {
         </picture>
         <h2 className="text-xl md:text-xl mt-1 mb-8">An initiative of the Mollen Foundation</h2>
         <p className="text-xl md:text-xl mb-8 max-w-2xl mx-auto">
-          A special, one-year professional learning experience designed to empower schools and
-          communities across the state to build strong, sustainable Farm to School programs.
+          A special, one-year professional learning experience designed to empower schools, districts, 
+          early childhood centers, and communities across the state to build strong, sustainable Farm to School programs.
         </p>
         <div
           className="flex flex-col items-center justify-center gap-4 w-full max-w-lg mx-auto"
