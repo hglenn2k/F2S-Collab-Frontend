@@ -65,7 +65,7 @@ export default function Timeline() {
           <h2 className="text-3xl font-bold text-orange-700 mb-6">2025-2026 Program Timeline</h2>
           <p className="text-xl text-gray-700">
             From the initial program launch through a transformative summer retreat and into a full year 
-            of coaching and implementation, <span className="font-bold">eight selected school teams</span> will work together to bring their 
+            of coaching and implementation, <span className="font-bold">eight selected teams</span> will work together to bring their 
             farm to school visions to life across Arizona.
           </p>
         </div>
