@@ -3,14 +3,13 @@ import React from 'react';
 import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
-  
   console.log("HERO COMPONENT RENDERING");
   console.log("ENV VARS:", {
     enrollmentLink: process.env.NEXT_PUBLIC_ENROLLMENT_UPDATES_LINK,
     faqTeamLink: process.env.NEXT_PUBLIC_FAQ_TEAM_LINK,
     faqCoachLink: process.env.NEXT_PUBLIC_FAQ_COACH_LINK
   });
-  
+
   return (
     <header className="relative min-h-screen h-fit lg:h-screen flex items-center justify-center py-8 lg:py-0">
       {/* Background image with Next.js Image */}
@@ -31,7 +30,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative container mx-auto px-4 text-center text-white -mt-4">
         {/* Logo with picture element for webp support */}
-        <picture className="relative block mb-6">
+        <picture className="relative block">
           <source srcSet="/images/logo.webp" type="image/webp" />
           <Image
             src="/images/logo.jpeg"
@@ -41,14 +40,13 @@ export default function Hero() {
             className="mx-auto w-4/5 sm:w-2/3 md:w-auto max-w-sm"
           />
         </picture>
-
+        <h2 className="text-xl md:text-xl mt-1 mb-8">An initiative of the Mollen Foundation</h2>
         <p className="text-xl md:text-xl mb-8 max-w-2xl mx-auto">
           A special, one-year professional learning experience designed to empower schools and
           communities across the state to build strong, sustainable Farm to School programs.
         </p>
-
-        <div 
-          className="flex flex-col items-center justify-center gap-4 w-full max-w-lg mx-auto" 
+        <div
+          className="flex flex-col items-center justify-center gap-4 w-full max-w-lg mx-auto"
           style={{maxWidth: '480px'}}
         >
           <a
@@ -72,7 +70,6 @@ export default function Hero() {
               <span className="pointer-events-none">FAQ for Teams</span>
               <ArrowRight className="w-5 h-5 pointer-events-none" />
             </a>
-
             <a
               href={"https://docs.google.com/document/d/1hSd8EWEbzTgtw4GDx51Z-w-98swoEcyUQfkr0m8I7uQ/edit?usp=sharing"}
               target="_blank"
