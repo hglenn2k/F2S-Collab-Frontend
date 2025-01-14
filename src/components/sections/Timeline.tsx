@@ -5,25 +5,25 @@ export default function Timeline() {
   const events = [
     { 
       date: "Spring 2025", 
-      event: "Program Launch - Schools, Districts, and ECEs assemble teams and submit applications",
+      event: "Program Launch: Schools, Districts, and ECEs assemble teams and submit applications",
       Icon: Rocket,
       color: "#85C88D" // Light Green
     },
     { 
       date: "Summer 2025", 
-      event: "Three-day Immersive Retreat at the Orme School in Mayer, Arizona",
+      event: "Three-day Immersive Retreat at\u00A0the Orme School in Mayer, Arizona",
       Icon: Users,
       color: "#F6A20E",  // Golden orange
     },
     { 
       date: "Fall / Winter 2025", 
-      event: "Receive ongoing coaching to implement your Farm to School action plan",
+      event: "Receive ongoing coaching to implement your Farm\ to\ School\u00A0action plan",
       Icon: Presentation,
       color: "#93D8CC",  // Light cyan
     },
     { 
       date: "Spring 2026", 
-      event: "Reflect on your action plan and share your experience with the network",
+      event: "Reflect on your action plan and\u00A0share your experience with\u00A0the network",
       Icon: ClipboardCheck,
       color: "#85C88D" // Light Green
     }
