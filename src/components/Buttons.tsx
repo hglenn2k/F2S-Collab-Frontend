@@ -47,10 +47,10 @@ export const ButtonGroup = () => (
       Sign up for Enrollment Updates
     </Button>
     <Button href={LINKS.teamSignup} variant="secondary">
-      Team Enrollment Form
+      Team Application Form
     </Button>
     <Button href={LINKS.coachSignup} variant="secondary" disabled={true}>
-      Coach Enrollment Form (coming soon)
+      Coach Application Form (coming soon)
     </Button>
   </div>
 );
