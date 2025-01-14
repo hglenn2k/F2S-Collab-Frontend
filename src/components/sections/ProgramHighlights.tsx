@@ -6,7 +6,7 @@ export default function ProgramHighlights() {
     {
       icon: <Users className="w-8 h-8" />,
       title: "Build a Team",
-      description: "Foster cross-department collaboration among teachers, administrators, and child nutrition staff for shared leadership and growth.",
+      description: "Foster cross-departmental collaboration among teachers, administrators, and child nutrition staff for shared leadership and growth.",
     },
     {
       icon: <Target className="w-8 h-8" />,
@@ -16,7 +16,7 @@ export default function ProgramHighlights() {
     {
       icon: <CheckCircle className="w-8 h-8" />,
       title: "Create an Action Plan",
-      description: "Develop a school-wide plan rooted in values, integrating curriculum, local procurement, youth voices, and community connections.",
+      description: "Develop a comprehensive plan rooted in values, integrating curriculum, local procurement, youth voices, and community connections.",
     },
     {
       icon: <Sprout className="w-8 h-8" />,
@@ -37,9 +37,9 @@ export default function ProgramHighlights() {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl font-bold text-cyan-700 mb-6 text-shadow-white">Program Highlights</h2>
           <p className="text-xl text-gray-700 mb-4">
-            The AZ Farm to School Collaborative empowers schools to create impactful farm to school 
-            and early childhood programs aligned with their priorities. Through building essential relationships and skills, your team will develop 
-            the foundation needed for a sustainable farm to school program.
+            The AZ Farm to School Collaborative empowers teams to create impactful farm to school and early childhood programs 
+            aligned with their site&apos;s values and vision. Through building essential relationships and skills, each team 
+            will develop the foundation needed for a sustainable farm to school program.
           </p>
         </div>
 
@@ -60,7 +60,7 @@ export default function ProgramHighlights() {
             What You&apos;ll Receive
           </h3>
           <p className="text-center mb-6 text-xl text-gray-700">
-            We will recruit 8 school or district teams from across the state to 
+            We will recruit 8 school, district, and early childhood centers from across the state to 
             participate in this comprehensive program.
           </p>
           

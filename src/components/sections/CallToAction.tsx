@@ -7,7 +7,7 @@ export default function CallToAction() {
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl font-bold mb-6">Ready to Grow?</h2>
         <p className="text-xl mb-8">
-          Healthy, conscious school communities connected to each other and our abundant home.
+          Healthy, conscious educational communities connected to each other and our abundant home.
         </p>
         <ButtonGroup />
       </div>

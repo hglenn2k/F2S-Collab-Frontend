@@ -38,7 +38,7 @@ export default function Vision() {
                   Farm to School is a vibrant journey of collaboration, growth, and scholastic success. 
                   Cafeterias and classrooms are transformed into resilient, interconnected systems that nourish 
                   communities in mind, body, and spirit. Picture a campus where the cafeteria isn&apos;t just a 
-                  dining space—it&apos;s the heart of a thriving educational ecosystem.
+                  dining space — it&apos;s the heart of a thriving educational ecosystem.
                 </p>
               </div>
             </div>
@@ -62,7 +62,7 @@ export default function Vision() {
                 </div>
 
                 <p className="leading-relaxed text-green-900 text-xl" style={{ textShadow: '1px 1px 2px rgba(255, 255, 255, 0.6)' }}>
-                  Join us May 30th-June 1st, 2025, for the inaugural Farm to School Collaborative Retreat. 
+                  Join us during the 2025-2026 school year for the inaugural Farm to School Collaborative Retreat! 
                   Schools will attend a three-day immersive experience to create actionable goals for 2025-2026. 
                   Teams will receive ongoing coaching and peer support as Farm to School gradually unfolds on their 
                   campus throughout the year.
@@ -89,9 +89,9 @@ export default function Vision() {
                 </div>
 
                 <p className="leading-relaxed text-green-900 text-xl" style={{ textShadow: '1px 1px 2px rgba(255, 255, 255, 0.6)' }}>
-                  Eight school or district teams accepted into the AZ Farm to School Collaborative will work through an 
+                  Eight school, district, or early childhood teams will be accepted to work through an 
                   evidence-based approach guided by dedicated coaches to implement their own adaptation of Farm to School 
-                  practices. These teams of up to five should consist of at least one classroom teacher, an administrator, 
+                  practices. These teams should consist of at least one classroom teacher, an administrator, 
                   and child nutrition staff.
                 </p>
               </div>
