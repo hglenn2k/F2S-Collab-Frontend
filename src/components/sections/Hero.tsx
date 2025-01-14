@@ -4,7 +4,7 @@ import { ButtonGroup } from '@/components/Buttons';
 
 export default function Hero() {
   return (
-    <header className="relative min-h-screen h-fit lg:h-screen flex items-center justify-center py-8 lg:py-0 overflow-hidden">
+    <header className="relative min-h-screen flex items-center justify-center py-8 overflow-hidden">
       <picture className="absolute inset-0">
         <source srcSet="/images/hero2.webp" type="image/webp" />
         <Image
