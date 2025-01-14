@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react';
 
 const LINKS = {
   enrollment: "http://eepurl.com/i6wuL2",
-  guide: "https://docs.google.com/document/d/1lFUwltHkN_1iTulBAh7R6xNkGb4fVHUpwUDBU_pT5Mk/edit?usp=sharing",
+  guide: "https://docs.google.com/document/d/e/2PACX-1vQaFuCZywjM-rhVIw1s0uAT871YzBsnaJM_kZQeAMSKy_ys2QiCa7lkAZzC0h6mM1KVioGj0TVuFsa1/pub",
   teamSignup: "https://docs.google.com/forms/d/e/1FAIpQLScbXlyvULZH6sab1uCoRo6q179LNlPUDCX4OF_SAuUgC0QS9g/viewform?usp=dialog",
   coachSignup: ""
 } as const;
