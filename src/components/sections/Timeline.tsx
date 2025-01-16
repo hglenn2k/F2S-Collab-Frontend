@@ -10,7 +10,7 @@ export default function Timeline() {
       color: "#85C88D" // Light Green
     },
     { 
-      date: "Summer 2025", 
+      date: "May 2025", 
       event: "Three-day Immersive Retreat at\u00A0the Orme School in Mayer, Arizona",
       Icon: Users,
       color: "#F6A20E",  // Golden orange
@@ -64,7 +64,7 @@ export default function Timeline() {
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h2 className="text-3xl font-bold text-orange-700 mb-6">2025-2026 Program Timeline</h2>
           <p className="text-xl text-gray-700">
-            From the initial program launch, through a transformative summer retreat, and into a full year 
+            From the initial program launch, through a transformative retreat, and into a full year 
             of coaching and implementation, <span className="font-bold">eight selected teams</span> will work together to bring their 
             farm to school visions to life across Arizona.
           </p>
