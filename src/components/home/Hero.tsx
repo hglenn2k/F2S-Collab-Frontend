@@ -6,9 +6,9 @@ export default function Hero() {
   return (
     <header className="relative min-h-screen flex items-center justify-center py-8 overflow-hidden">
       <picture className="absolute inset-0">
-        <source srcSet="/images/hero2.webp" type="image/webp" />
+        <source srcSet="/images/hero.webp" type="image/webp" />
         <Image
-          src="/images/hero2.jpg"
+          src="/images/hero.jpg"
           alt="Background"
           fill
           className="object-cover object-[70%_center] md:object-[70%_top] scale-105"
