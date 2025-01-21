@@ -2,10 +2,10 @@ import React from 'react';
 
 export default function Benefits() {
   return (
-    <section className="py-16 bg-purple-50">
+    <section className="py-16 bg-green-50">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold text-purple-700 mb-8 text-center">
+          <h2 className="text-2xl font-bold text-green-900 mb-8 text-center">
             Why Become a Farm to School Coach?
           </h2>
 
@@ -25,7 +25,7 @@ export default function Benefits() {
             </div>
 
             <div className="bg-white rounded-xl p-8 shadow-md border border-purple-200">
-              <h3 className="text-xl font-bold text-purple-700 mb-4">
+              <h3 className="text-xl font-bold text-green-900 mb-4">
                 As a Coach, You&apos;ll Receive:
               </h3>
               <ul className="space-y-4">

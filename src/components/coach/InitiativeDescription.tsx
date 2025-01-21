@@ -2,10 +2,10 @@ import React from 'react';
 
 export default function InitiativeDescription() {
   return (
-    <section className="pb-16 pt-12 bg-green-50">
+    <section className="pb-16 pt-12 bg-orange-50">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold text-green-900 mb-8 text-center">
+          <h2 className="text-2xl font-bold text-orange-700 mb-8 text-center">
             What is Farm to School?
           </h2>
 

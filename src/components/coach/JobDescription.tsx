@@ -2,10 +2,10 @@ import React from 'react';
 
 export default function JobDescription() {
   return (
-    <section className="py-16 bg-cyan-50">
+    <section className="py-16 bg-green-50">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold text-cyan-700 mb-8 text-center">
+          <h2 className="text-2xl font-bold text-green-900 mb-8 text-center">
             What is a Farm to School Coach?
           </h2>
 
@@ -21,8 +21,8 @@ export default function JobDescription() {
               and ambition for Farm to School work.
             </p>
 
-            <div className="bg-white rounded-xl p-8 shadow-md border border-cyan-200 mt-8">
-              <h3 className="text-xl font-bold text-cyan-700 mb-4">
+            <div className="bg-white rounded-xl p-8 shadow-md border border-green-200 mt-8">
+              <h3 className="text-xl font-bold text-green-900 mb-4">
                 The Farm to School Collaborative coaches will:
               </h3>
               <ul className="space-y-4 text-xl text-gray-700">
