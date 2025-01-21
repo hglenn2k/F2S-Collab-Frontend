@@ -8,34 +8,31 @@ export default function CallToAction() {
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <div className="space-y-6">
             <h2 className="text-2xl font-bold text-green-900">
-              APPLY NOW
+              Apply Today!
             </h2>
             <p className="text-xl text-gray-700">
-              Connect with the Arizona Farm to School Collaborative and discover 
-              your potential as a Farm-to-School coach!
+              Connect with the Arizona Farm to School Collaborative and discover
+              your potential as a Farm&#8209;to&#8209;School coach!
             </p>
           </div>
-
-          <div className="max-w-2xl mx-auto bg-white rounded-xl p-8 shadow-md border border-green-200">
-            <a 
-              href="https://arizonafarmtoschoolcollaborative.org" 
-              target="_blank" 
+          <div className="flex justify-center">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfFPNv-5-HKQc_BGQvBcJVodQKQ_VaBw7umYC4kAxgpwp9Beg/viewform?usp=dialog"
+              target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-xl font-semibold text-green-700 hover:text-green-800 transition-colors"
+              className="w-3/5 h-12 px-8 rounded-lg transition-colors inline-flex items-center justify-center gap-2 shadow-lg ring-1 ring-white/50 bg-green-600 text-white hover:bg-green-700/90"
             >
-              Visit arizonafarmtoschoolcollaborative.org to begin your application today!
-              <ArrowRight className="w-6 h-6" />
+              <span className="pointer-events-none">Apply</span>
+              <ArrowRight className="w-5 h-5 pointer-events-none" />
             </a>
           </div>
-
           <div className="space-y-6 pt-4">
             <p className="text-xl text-gray-700">
               Be part of the change — a vibrant, conscious, and connected educational community awaits!
             </p>
-
             <p className="text-xl text-gray-700">
               Reach out to{' '}
-              <a 
+              <a
                 href="mailto:f2scollaborative@mollenfoundation.org"
                 className="text-green-700 hover:text-green-800 underline"
               >
