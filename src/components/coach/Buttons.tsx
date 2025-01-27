@@ -3,8 +3,9 @@ import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 
 const LINKS = {
-  enrollment: "http://eepurl.com/i6wuL2",
-  guide: "https://docs.google.com/document/d/e/2PACX-1vQaFuCZywjM-rhVIw1s0uAT871YzBsnaJM_kZQeAMSKy_ys2QiCa7lkAZzC0h6mM1KVioGj0TVuFsa1/pub",
+  enrollment: "https://docs.google.com/forms/d/e/1FAIpQLSfFPNv-5-HKQc_BGQvBcJVodQKQ_VaBw7umYC4kAxgpwp9Beg/viewform?usp=dialog",
+  email: "http://eepurl.com/i6wuL2",
+  guide: "https://docs.google.com/document/d/e/2PACX-1vTz-cnCokOYkRa5vEt_3sPjHvs-7mvjR53PUU1Zva8AU_t5q7eLYyumv5gVdwumXkfCC4ZGs8Fo5TOk/pub",
   webinar: "https://www.youtube.com/watch?v=AnCFtKQ3CZI",
   home: "/"
 } as const;
@@ -68,10 +69,13 @@ const Button = ({ href, children, variant = 'primary', disabled = false }: Butto
 
 export const CoachButtonGroup = () => (
   <div className="flex flex-col items-center justify-center gap-4 max-w-lg mx-auto">
+    <Button href={LINKS.enrollment} variant="primary">
+        Coach Application Form
+    </Button>
     <Button href={LINKS.guide} variant="primary">
       Coach Information Guide
     </Button>
-    <Button href={LINKS.enrollment} variant="orange">
+    <Button href={LINKS.email} variant="orange">
       Get Email Updates
     </Button>
     <Button
