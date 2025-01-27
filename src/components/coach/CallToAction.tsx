@@ -12,7 +12,7 @@ export default function CallToAction() {
             </h2>
             <p className="text-xl text-gray-700">
               Connect with the Arizona Farm to School Collaborative and discover
-              your potential as a Farm&#8209;to&#8209;School coach!
+              your potential as a Farm&nbsp;to&nbsp;School coach!
             </p>
           </div>
           <div className="flex justify-center">
@@ -28,7 +28,8 @@ export default function CallToAction() {
           </div>
           <div className="space-y-6 pt-4">
             <p className="text-xl text-gray-700">
-              Be part of the change — a vibrant, conscious, and connected educational community awaits!
+              <span className="font-bold">Applications are due February 17th</span>, be part of the change! 
+              A vibrant, conscious, and connected educational community awaits!
             </p>
             <p className="text-xl text-gray-700">
               Reach out to{' '}

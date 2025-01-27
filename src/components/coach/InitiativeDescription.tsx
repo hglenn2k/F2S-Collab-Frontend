@@ -11,7 +11,7 @@ export default function InitiativeDescription() {
 
           <div className="space-y-6">
             <p className="text-xl text-gray-700">
-              Farm to School is a program for a school, district, or early childhood education 
+              Farm to School is a program for school, district, or early childhood education 
               communities that brings healthy, local food into school cafeterias, supports food, 
               agriculture, and nutrition education in the classrooms, and builds strong community 
               partnerships with local farmers and other interested groups.

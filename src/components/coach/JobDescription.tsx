@@ -33,6 +33,12 @@ export default function JobDescription() {
                 <li className="pl-6">- Commit to meeting with their school teams monthly during the 2025-2026 school year to roll out the school&apos;s action plan and vision</li>
               </ul>
             </div>
+
+            <p className="text-xl text-gray-700">
+            The role of a Farm to School Collaborative Coach is to schedule and facilitate team meetings, guide their team to 
+            create a strong values statement & action plan, and connect the team to resources & support that will help them 
+            successfully implement their plan during the school year.
+            </p>
           </div>
         </div>
       </div>

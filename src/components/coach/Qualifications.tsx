@@ -23,10 +23,10 @@ export default function Qualifications() {
               <ul className="space-y-4">
                 {[
                   "Have a love for fresh, local food and sustainable practices",
-                  "Enjoy working with schools, farmers, or community organizations",
-                  "Can commit to attending our coach development series in spring 2025, attend our three-day retreat May 23-25, 2025 and dedicate time each month to school coaching through May 2026",
+                  "Enjoy working with schools, farmers, ECE, or community organizations",
+                  "Can commit to attending our coach development series in Spring 2025, attend our three-day retreat May 2025, and dedicate time each month to school coaching through May 2026",
                   "Have strong facilitation skills",
-                  "Bring experience in education, gardening, agriculture, community leadership, plus enthusiasm and a willingness to learn!"
+                  "Bring experience in education, gardening, child nutrition, agriculture, community leadership, plus enthusiasm and a willingness to learn!"
                 ].map((item, index) => (
                   <li key={index} className="flex gap-3 items-start">
                     <CheckCircle className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
