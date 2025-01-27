@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import CoachButtonGroup from './Buttons';
 
 export default function Hero() {
   return (
@@ -16,12 +17,14 @@ export default function Hero() {
               className="mx-auto w-full sm:w-3/4 md:w-auto max-w-lg"
             />
           </picture>
+          
           {/* Main Title */}
           <h1 className="text-3xl md:text-4xl font-bold text-orange-700 mb-12">
             Become a Farm to School Coach with the Arizona&nbsp;Farm to School Collaborative!
           </h1>
+          
           {/* Spanish Translation Notice */}
-          <div className="text-xl text-gray-900">
+          <div className="text-xl text-gray-900 mb-12">
             <p className="italic">
               Si necesita servicios de traducción para participar, envíe un correo electrónico a{' '}
               <a
@@ -33,6 +36,9 @@ export default function Hero() {
               {' '}-- se habla español.
             </p>
           </div>
+
+          {/* Button Group */}
+          <CoachButtonGroup />
         </div>
       </div>
     </header>

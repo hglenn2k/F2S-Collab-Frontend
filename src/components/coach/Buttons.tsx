@@ -1,12 +1,12 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import Link from 'next/link';
 
 const LINKS = {
   enrollment: "http://eepurl.com/i6wuL2",
   guide: "https://docs.google.com/document/d/e/2PACX-1vQaFuCZywjM-rhVIw1s0uAT871YzBsnaJM_kZQeAMSKy_ys2QiCa7lkAZzC0h6mM1KVioGj0TVuFsa1/pub",
-  teamSignup: "https://docs.google.com/forms/d/e/1FAIpQLScbXlyvULZH6sab1uCoRo6q179LNlPUDCX4OF_SAuUgC0QS9g/viewform?usp=dialog",
-  coach: "/coach",
-  webinar: "https://www.youtube.com/watch?v=AnCFtKQ3CZI"
+  webinar: "https://www.youtube.com/watch?v=AnCFtKQ3CZI",
+  home: "/"
 } as const;
 
 interface ButtonProps {
@@ -26,6 +26,14 @@ const Button = ({ href, children, variant = 'primary', disabled = false }: Butto
   };
 
   const disabledStyles = "opacity-50 cursor-not-allowed pointer-events-none";
+  const className = `${baseStyles} ${variantStyles[variant]} ${disabled ? disabledStyles : ''}`;
+
+  const content = (
+    <>
+      <span className="pointer-events-none">{children}</span>
+      <ArrowRight className="w-5 h-5 pointer-events-none" />
+    </>
+  );
 
   return (
     <>
@@ -40,37 +48,42 @@ const Button = ({ href, children, variant = 'primary', disabled = false }: Butto
           }
         `}
       </style>
-      <a
-        href={disabled ? undefined : href}
-        target="_blank"
-        rel="noopener noreferrer"
-        className={`${baseStyles} ${variantStyles[variant]} ${disabled ? disabledStyles : ''}`}
-      >
-        <span className="pointer-events-none">{children}</span>
-        <ArrowRight className="w-5 h-5 pointer-events-none" />
-      </a>
+      {href === LINKS.home ? (
+        <Link href={href} className={className}>
+          {content}
+        </Link>
+      ) : (
+        <a
+          href={disabled ? undefined : href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={className}
+        >
+          {content}
+        </a>
+      )}
     </>
   );
 };
 
-export const ButtonGroup = () => (
+export const CoachButtonGroup = () => (
   <div className="flex flex-col items-center justify-center gap-4 max-w-lg mx-auto">
-    <Button href={LINKS.teamSignup} variant="primary">
-      Team Application Form
-    </Button>
     <Button href={LINKS.guide} variant="primary">
-      Team Information Guide
+      Coach Information Guide
     </Button>
-    <Button href={LINKS.enrollment} variant="secondary">
+    <Button href={LINKS.enrollment} variant="orange">
       Get Email Updates
     </Button>
-    <Button href={LINKS.webinar} variant="secondary">
+    <Button
+      href={LINKS.webinar}
+      variant="orange"
+    >
       Watch Information Webinar
     </Button>
-    <Button href={LINKS.coach} variant="orange">
-      For Prospective Coaches
+    <Button href={LINKS.home} variant="secondary">
+      Not a coach? Back to Main Page
     </Button>
   </div>
 );
 
-export default ButtonGroup;
+export default CoachButtonGroup;
