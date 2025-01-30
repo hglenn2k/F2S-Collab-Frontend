@@ -11,7 +11,7 @@ export default function Timeline() {
     },
     { 
       date: "May 2025", 
-      event: "Three-day Immersive Retreat at\u00A0the Orme School in Mayer, Arizona",
+      event: "Three-day Immersive Retreat",
       Icon: Users,
       color: "#F6A20E",  // Golden orange
     },
