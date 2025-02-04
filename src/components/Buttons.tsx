@@ -68,7 +68,7 @@ export const ButtonGroup = () => (
       Watch Information Webinar
     </Button>
     <Button href={LINKS.coach} variant="orange">
-      For Prospective Coaches
+      Become a coach
     </Button>
   </div>
 );
