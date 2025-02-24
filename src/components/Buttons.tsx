@@ -64,9 +64,10 @@ export const ButtonGroup = () => (
     <Button href={LINKS.enrollment} variant="secondary">
       Get Email Updates
     </Button>
+    {/*
     <Button href={LINKS.webinar} variant="secondary">
       Watch Information Webinar
-    </Button>
+    </Button>*/}
     <Button href={LINKS.coach} variant="orange">
       Become a coach
     </Button>
