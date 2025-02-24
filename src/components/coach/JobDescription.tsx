@@ -29,7 +29,7 @@ export default function JobDescription() {
                 <li>• Be paired with a school that is mutually a great fit</li>
                 <li>• Receive training in coaching and facilitation practices</li>
                 <li>• Dedicate time and energy to meeting with and coaching their partner school throughout the 2025-2026 school year</li>
-                <li className="pl-6">- All coaches attend the three-day kickoff retreat May 23rd-25th, 2025</li>
+                <li className="pl-6">- All coaches attend the three-day kickoff retreat</li>
                 <li className="pl-6">- Commit to meeting with their school teams monthly during the 2025-2026 school year to roll out the school&apos;s action plan and vision</li>
               </ul>
             </div>

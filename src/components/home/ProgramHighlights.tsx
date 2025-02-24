@@ -71,7 +71,7 @@ export default function ProgramHighlights() {
             </li>
             <li className="flex items-center space-x-3">
               <Calendar className="w-5 h-5 text-cyan-700 flex-shrink-0" />
-              <span className="text-xl text-gray-700">Attend a 3-day retreat in May 2025 to action plan and build relationships</span>
+              <span className="text-xl text-gray-700">Attend a 3-day retreat to action plan and build relationships</span>
             </li>
             <li className="flex items-center space-x-3">
               <Clock className="w-5 h-5 text-cyan-700 flex-shrink-0" />

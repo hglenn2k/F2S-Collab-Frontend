@@ -10,7 +10,7 @@ export default function Timeline() {
       color: "#85C88D" // Light Green
     },
     { 
-      date: "May 2025", 
+      date: "Action planning retreat", 
       event: "Three-day Immersive Retreat",
       Icon: Users,
       color: "#F6A20E",  // Golden orange

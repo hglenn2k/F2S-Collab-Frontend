@@ -24,7 +24,7 @@ export default function Qualifications() {
                 {[
                   "Have a love for fresh, local food and sustainable practices",
                   "Enjoy working with schools, farmers, ECE, or community organizations",
-                  "Can commit to attending our coach development series in Spring 2025, attend our three-day retreat May 2025, and dedicate time each month to school coaching through May 2026",
+                  "Can commit to attending our coach development series in Spring 2025, attend our three-day retreat, and dedicate time each month to school coaching through May 2026",
                   "Have strong facilitation skills",
                   "Bring experience in education, gardening, child nutrition, agriculture, community leadership, plus enthusiasm and a willingness to learn!"
                 ].map((item, index) => (
