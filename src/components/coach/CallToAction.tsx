@@ -28,18 +28,17 @@ export default function CallToAction() {
           </div>
           <div className="space-y-6 pt-4">
             <p className="text-xl text-gray-700">
-              <span className="font-bold">Applications are due February 17th</span>, be part of the change! 
-              A vibrant, conscious, and connected educational community awaits!
+              <span className="font-bold">Be part of the change! </span>
+              A vibrant, conscious, and connected educational community awaits.
             </p>
-            <p className="text-xl text-gray-700">
-              Reach out to{' '}
+            <p className="text-xl italic text-gray-700">
+              For questions, please reach out to{' '}
               <a
                 href="mailto:f2scollaborative@mollenfoundation.org"
-                className="text-green-700 hover:text-green-800 underline"
+                className="text-green-700 italic hover:text-green-800 underline"
               >
                 f2scollaborative@mollenfoundation.org
               </a>
-              {' '}with any questions or inquiries.
             </p>
           </div>
         </div>
